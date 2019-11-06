@@ -1,8 +1,9 @@
 from django.contrib import admin
 
 # Register your models here.
-from django.contrib import admin
 
-from .models import users
+from gamefitnessweb.models import Users, Games, Exercises
 
-admin.site.register(users)
+admin.site.register(Users)
+admin.site.register(Games)
+admin.site.register(Exercises)
