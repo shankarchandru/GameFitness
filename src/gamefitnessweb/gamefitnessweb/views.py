@@ -1,8 +1,8 @@
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
-from .forms import UserForm, GameForm
+from gamefitnessweb.forms import UserForm, GameForm
 
-def get_userForm(request):
+def get_UserForm(request):
     # if this is a POST request we need to process the form data
     if request.method == 'POST':
         # create a form instance and populate it with data from the request:
@@ -18,7 +18,6 @@ def get_userForm(request):
     # if a GET (or any other method) we'll create a blank form
     else:
         form = UserForm()
-
     return render(request, 'signin.html', {'form': form})
 
 def homepage(request):
