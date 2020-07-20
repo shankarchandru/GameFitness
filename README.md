@@ -71,7 +71,7 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 ```
 
-- Access the application from http://127.0.0.1:8000/homepage/
+- Access the application from http://127.0.0.1:8000/
 
 - To close the application, use Ctrl+break or Ctrl+C to stop the server
 
